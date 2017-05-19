@@ -1,0 +1,43 @@
+platforms
+node_modules
+node_modules/*
+platforms/*
+app/**/*.js
+app/**/*.js.map
+/**/*.DS_Store
+coverage
+.DS_STORE
+base.spec.js
+npm-debug.log
+base.spec.js.map
+.idea/*
+.idea
+
+# User-specific stuff:
+*.bash
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# fastlane specific
+fastlane/report.xml
+
+# deliver temporary files
+fastlane/Preview.html
+
+# snapshot generated screenshots
+fastlane/screenshots
+
+# scan temporary files
+fastlane/test_output
+out/
